@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+ipyvolume
+dash==1.6.1
+dash-daq==0.3.1
+jupyterlab-dash
