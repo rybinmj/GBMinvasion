@@ -1,84 +1,32 @@
 <!doctype html>
 <html>
 <head>
+<style>
+#scatterplot {
+    margin-left: 10%;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+</style>
+
+<meta charset="UTF-8">
     <title>Rybin GBM Invasion Data</title>
-
-    <meta name = "viewport"
-          content = "width=device-width, initial-scale=1.0"
-          charset="UTF-8"
-    >
-
-    <style>
-        body{
-            margin: 0;
-            padding-top: 75px;
-            font-size: 15px;
-            max-width: 100%;
-            overflow-x: hidden;
-        }
-
-        nav {
-            background-color: #333;
-            margin: 0;
-            overflow: hidden;
-        }
-
-        nav ul{
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            /* This allow us to arrange list items in a row, without using float */
-            display: inline-block;
-            list-style-type: none;
-        }
-
-        /* Create a style for the first level items */
-        nav > ul > li > a {
-            color: #aaa;
-            background-color:#333;
-            display: block;
-            line-height: 50px;
-            font-size: 30pt;
-            padding: 10px 25px 10px;
-            text-decoration: none;
-        }
-
-        .navbar {
-            overflow: hidden;
-            background-color: #333;
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        #scatterplot {
-            margin-left: 10%;
-            height: 600px;
-            width: 800px;
-            overflow: hidden;
-        }
-
-    </style>
-
 </head>
 
-<body>
-    <nav class = "navbar">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="scatterplots.html">GBM Invasion Data</a></li>
-            <li><a href="contact.html">Contact Info</a></li>
-        </ul>
-    </nav>
-
-    <div id = "tophead"
-         style = "text-align:center;
+<body style="margin: 0">
+    <div style = "text-align:center;
+                  background-color:darkgreen;
                   width: 100%;
                   height: 300px;
                   overflow-y: hidden;
-                  color:black"
+                  color:white"
     >
 
         <p1 style = "font-size: 70pt">GBM Invasion Data<br></p1>
@@ -134,4 +82,5 @@
     </table>
 
 </body>
+
 </html>
