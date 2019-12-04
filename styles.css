@@ -17,14 +17,14 @@ html, body{
 }
 
 hr {
-width: 75%;
-height: 3px;
-background-color: black;
-margin-right: auto;
-margin-left: auto;
-margin-top: 5px;
-margin-bottom: 50px;
-border: 0;
+    width: 75%;
+    height: 3px;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    border: 0;
 }
 
 .scatterheading {
