@@ -1,0 +1,45 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    height: auto;
+    overflow-y: hidden;
+    color: black;
+    font-family: Candara;
+    font-variant: small-caps;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+hr {
+width: 75%;
+height: 3px;
+background-color: black;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+margin-bottom: 50px;
+border: 0;
+}
+
+#scatterplot {
+    margin-left: 10%;
+    height: 600px;
+    width: 800px;
+    overflow: hidden;
+}
